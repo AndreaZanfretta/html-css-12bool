@@ -111,3 +111,28 @@
 .col-xs-offset-11{
     margin-left: calc((100% / 12) * 11);
 }
+/* posizioni */
+.start-xs{
+    justify-content: flex-start;
+    text-align: left;
+}
+.center-xs{
+    justify-content: center;
+    text-align: center;
+}
+.end-xs{
+    justify-content: flex-end;
+    text-align: right;
+}
+.middle-xs{
+    align-items: center;
+}
+.bottom-xs{
+    align-items: flex-end;
+}
+.around-xs{
+    justify-content: space-around;
+}
+.between-xs{
+    justify-content: space-between;
+}
