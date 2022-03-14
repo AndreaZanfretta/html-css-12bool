@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/12bool.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/12bool-query.css">
     <title>Document</title>
 </head>
 <body>
     <section>
-        <div class="container.fluid">
+        <div class="container">
             <h1>Esercizio per casa</h1>
             <div class="row">
                 <div class="col-xs-1 box">col 1</div>
@@ -40,15 +41,15 @@
                 <div class="col-xs-2 box">2 col</div>
             </div>
             <div class="row">
-                <div class="col-xs-1 box">1 col</div>
-                <div class="col-xs-2 box">2 col</div>
-                <div class="col-xs-2 box">2 col</div>
-                <div class="col-xs-6 box">6 col</div>
-                <div class="col-xs-1 box">1 col</div>
+                <div class="col-xs-1 col-sm-2 col-md-1 box">1 col</div>
+                <div class="col-xs-2 col-sm-2 col-md-1 box">2 col</div>
+                <div class="col-xs-2 col-sm-2 col-md-1 box">2 col</div>
+                <div class="col-xs-6 col-sm-3 col-md-1 box">6 col</div>
+                <div class="col-xs-1 col-sm-3 col-md-8 box">1 col</div>
             </div>
             <div class="row">
                 <div class="col-xs-6">
-                    <div class="row box">
+                    <div class="row box box-large">
                         <div class="col-xs-2">
                             <div class="box-nested">nasted 2 col</div>
                         </div>
@@ -60,8 +61,8 @@
                         </div>
                     </div>    
                 </div>
-                <div class="col-xs-6">
-                    <div class="row box">
+                <div class="col-xs-6 box box-large">
+                    <div class="row box-large">
                         <div class="col-xs-6">
                             <div class="box-nested">nasted 6 col</div>
                         </div>
@@ -74,6 +75,7 @@
         </div>
     </section>
     <section>
+        <div class="container">
         <div class="row">
             <div class="col-xs-12 box"></div>
         </div>
@@ -101,7 +103,9 @@
             <div class="col-xs-6 box"></div>
             <div class="col-xs-6 box"></div>
         </div>
+    </div>
     </section>
+    <div class="container">
     <h2>Offset</h2>
     <section>
         <div class="row">
@@ -148,6 +152,7 @@
             <div class="col-xs-offset-1"></div>
             <div class="col-xs-11 box"></div>
         </div>
+    </div>
     </section>
 </body>
 </html>
