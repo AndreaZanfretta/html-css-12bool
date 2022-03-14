@@ -124,6 +124,9 @@
     justify-content: flex-end;
     text-align: right;
 }
+.top-xs{
+    align-items: flex-start;
+}
 .middle-xs{
     align-items: center;
 }

@@ -94,7 +94,7 @@
 }
 @media screen and (min-width: 992px ) {
     .container{
-        width: 960px;
+        width: 100%;
         margin: 0 auto;
     }
     .col-md{
@@ -184,5 +184,9 @@
     }
     .col-md-offset-11{
         margin-left: calc((100% / 12) * 11);
+    }
+    .red{
+        background-color: #1379BB;
+        border: 0;
     }
 }

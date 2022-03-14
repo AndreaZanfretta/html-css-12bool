@@ -16,3 +16,24 @@
 section{
     margin-bottom: 20px;
 }
+.red{
+    background-color: #D90B0D;
+    border: 0;
+}
+.black{
+    background: black;
+    border: 0;
+}
+.white{
+    background: white;
+    border: 0;
+}
+.blue{
+    background-color: #D90B0D;
+    border: 0;
+}
+#pixel{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
